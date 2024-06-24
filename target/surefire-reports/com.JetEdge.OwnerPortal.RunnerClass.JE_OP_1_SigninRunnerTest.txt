@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.JetEdge.OwnerPortal.RunnerClass.JE_OP_1_SigninRunnerTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 92.96 s -- in com.JetEdge.OwnerPortal.RunnerClass.JE_OP_1_SigninRunnerTest
