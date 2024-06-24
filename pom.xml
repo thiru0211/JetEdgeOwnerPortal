@@ -28,6 +28,36 @@
 				<!--</dependencies>-->
 			</plugin>
 			
+			 <plugin>
+                <groupId>net.masterthought</groupId>
+                <artifactId>maven-cucumber-reporting</artifactId>
+                <version>5.8.1</version>
+                <executions>
+                    <execution>
+                        <id>execution</id>
+                        <phase>verify</phase>
+                        <goals>
+                            <goal>generate</goal>
+                        </goals>
+                        <configuration>
+                           <projectName>Sample</projectName>
+                <!-- output directory for the generated report -->
+                <outputDirectory>${project.build.directory}/cucumber-reports</outputDirectory>
+                <inputDirectory>${project.build.directory}/cucumber</inputDirectory>
+                <checkBuildResult>false</checkBuildResult>
+                <jsonFiles>
+                    <!-- supports wildcard or name pattern -->
+                    <param>**/*.json</param>
+                </jsonFiles>
+                <skippedFails>true</skippedFails>
+                <enableFlashCharts>true</enableFlashCharts>
+                <buildNumber>10.2.1</buildNumber>
+                <parallelTesting>false</parallelTesting>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+            
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-shade-plugin</artifactId>
