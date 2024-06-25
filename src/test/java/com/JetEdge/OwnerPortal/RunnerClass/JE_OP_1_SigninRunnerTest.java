@@ -10,8 +10,9 @@ import io.cucumber.junit.CucumberOptions;
 glue = "com.JetEdge.OwnerPortal.StepDefinition",
 //tags="@TC_01",
 plugin = {"pretty","html:Reports/TestReport.html",
-		"json:Reports/jsontestreport.json",
-		"html:Reports/cucumber-reports.html" })
+		"json:target/cucumber/cucumber.json",
+		"html:Reports/cucumber-reports.html",
+		"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"})
 public class JE_OP_1_SigninRunnerTest {
 
 }
