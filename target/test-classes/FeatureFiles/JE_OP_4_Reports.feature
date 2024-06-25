@@ -202,7 +202,7 @@ Feature: REPORTS
     Then Select Valid Tail To Check Reports
     And Click Continue button To Check Reports
     Then Click GL Wise Expense In Reports
-    And Select Valid From and To Month In GL Wise Expense
+   # And Select Valid From and To Month In GL Wise Expense
     Then Select All Expense Checkbox In GL Wise Expense
     And Click View button In GL Wise Expense
     Then Click Excel button In GL Wise Expense

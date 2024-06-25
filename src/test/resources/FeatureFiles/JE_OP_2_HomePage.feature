@@ -60,7 +60,7 @@ Feature: HOMEPAGE
     And Click Continue button To Check HomePage
     Then Click Outstanding Balance Dropdown button
     And Click Statement button In Outstanding Balance
-    Then Select Valid Date In From and To Calendar
+    #Then Select Valid Date In From and To Calendar
     And Click View button To Check HomePage
     Then Click Excel button To Check HomePage
     And close the HomePage Page

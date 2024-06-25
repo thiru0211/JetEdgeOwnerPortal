@@ -12,7 +12,9 @@ glue = "com.JetEdge.OwnerPortal.StepDefinition",
 plugin = {"pretty","html:Reports/TestReport.html",
 		"json:target/cucumber/cucumber.json",
 		"html:Reports/cucumber-reports.html",
-		"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"})
+		"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
+		})
+
 public class JE_OP_4_ReportsRunnerTest {
 
 	

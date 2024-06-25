@@ -16,6 +16,9 @@
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>3.3.0</version>
+				<configuration>
+   				 <forkMode>always</forkMode>
+    			 </configuration>
 				<!--<dependencies>-->
 					<!-- https://mvnrepository.com/artifact/org.apache.maven.surefire/surefire-junit47 -->
 				<!-- <dependency>
