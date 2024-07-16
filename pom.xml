@@ -43,17 +43,14 @@
                         <configuration>
                            <projectName>Sample</projectName>
                 <!-- output directory for the generated report -->
-                <outputDirectory>${project.build.directory}/cucumber-reports</outputDirectory>
+                <outputDirectory>${project.build.directory}/cucumber</outputDirectory>
                 <inputDirectory>${project.build.directory}/cucumber</inputDirectory>
                 <checkBuildResult>false</checkBuildResult>
                 <jsonFiles>
                     <!-- supports wildcard or name pattern -->
                     <param>**/*.json</param>
                 </jsonFiles>
-                <skippedFails>true</skippedFails>
-                <enableFlashCharts>true</enableFlashCharts>
                 <buildNumber>10.2.1</buildNumber>
-                <parallelTesting>false</parallelTesting>
                         </configuration>
                     </execution>
                 </executions>
@@ -156,58 +153,56 @@
 		<dependency>
 			<groupId>io.github.bonigarcia</groupId>
 			<artifactId>webdrivermanager</artifactId>
-			<version>5.8.0</version>
+			<version>5.9.1</version>
 		</dependency>
 
 <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 <dependency>
     <groupId>org.seleniumhq.selenium</groupId>
     <artifactId>selenium-java</artifactId>
-    <version>4.21.0</version>
+    <version>4.22.0</version>
 </dependency>
 
 <!-- https://mvnrepository.com/artifact/junit/junit -->
 <dependency>
     <groupId>junit</groupId>
     <artifactId>junit</artifactId>
-    <version>4.13.1</version>
+    <version>4.13.2</version>
 </dependency> 
 
 <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-engine -->
  <dependency>
     <groupId>org.junit.jupiter</groupId>
     <artifactId>junit-jupiter-engine</artifactId>
-    <version>5.10.2</version>
-    <scope>test</scope>
+    <version>5.10.3</version>
 </dependency> 
 
 <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-testng -->
-<!--<dependency>
+<dependency>
     <groupId>io.cucumber</groupId>
     <artifactId>cucumber-testng</artifactId>
     <version>7.18.0</version>
-</dependency>-->
+</dependency>
 
 <!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
 <dependency>
     <groupId>org.apache.poi</groupId>
     <artifactId>poi</artifactId>
-    <version>5.2.5</version>
+    <version>5.3.0</version>
 </dependency>
 
 <!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
 <dependency>
     <groupId>org.apache.poi</groupId>
     <artifactId>poi-ooxml</artifactId>
-    <version>5.2.5</version>
+    <version>5.3.0</version>
 </dependency>
 
 <!-- https://mvnrepository.com/artifact/org.junit.vintage/junit-vintage-engine -->
 <dependency>
     <groupId>org.junit.vintage</groupId>
     <artifactId>junit-vintage-engine</artifactId>
-    <version>5.10.2</version>
-    <scope>test</scope>
+    <version>5.10.3</version>
 </dependency>
 
 	<!-- https://mvnrepository.com/artifact/org.testng/testng -->
