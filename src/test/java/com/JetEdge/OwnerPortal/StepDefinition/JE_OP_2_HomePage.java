@@ -225,7 +225,8 @@ public class JE_OP_2_HomePage {
 	}
 	
 	@Then("Click Total Expense button To Check HomePage")
-	public void Click_Total_Expense_button_To_Check_HomePage() {
+	public void Click_Total_Expense_button_To_Check_HomePage() throws InterruptedException {
+		Thread.sleep(5000);
 		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
 		wait.until(ExpectedConditions.elementToBeClickable(By.id("ContentPlaceHolder1_lblExpense")));
 		ele = driver.findElement(By.id("ContentPlaceHolder1_lblExpense"));
@@ -241,7 +242,8 @@ public class JE_OP_2_HomePage {
 	}
 	
 	@Then("Click Trip Expense button To Check HomePage")
-	public void Click_Trip_Expense_button_To_Check_HomePage() {
+	public void Click_Trip_Expense_button_To_Check_HomePage() throws InterruptedException {
+		Thread.sleep(5000);
 		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
 		wait.until(ExpectedConditions.elementToBeClickable(By.id("ContentPlaceHolder1_lblTripExpense")));
 		ele = driver.findElement(By.id("ContentPlaceHolder1_lblTripExpense"));
@@ -1369,6 +1371,7 @@ public class JE_OP_2_HomePage {
 		wait.until(ExpectedConditions.elementToBeClickable(By.id("ContentPlaceHolder1_CalendarExtender3_day_2_5")));
 		ele2 = driver.findElement(By.id("ContentPlaceHolder1_CalendarExtender3_day_2_5"));
 		ele2.click();
+		Thread.sleep(3000);
 		wait.until(ExpectedConditions.elementToBeClickable(By.id("ContentPlaceHolder1_ddlSTHours")));
 		//Select start time
 		ele3 = driver.findElement(By.id("ContentPlaceHolder1_ddlSTHours"));
