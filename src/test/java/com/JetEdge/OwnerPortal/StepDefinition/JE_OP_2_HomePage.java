@@ -94,29 +94,32 @@ public class JE_OP_2_HomePage {
 	}
 	
 	@And("Click Continue button To Check HomePage")
-	public void Click_Continue_button_To_Check_HomePage() {
+	public void Click_Continue_button_To_Check_HomePage() throws InterruptedException {
 		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
 		wait.until(ExpectedConditions.elementToBeClickable(By.id("btnContinueTail")));
 		ele1 = driver.findElement(By.id("btnContinueTail"));
 		ele1.click();
+		Thread.sleep(20000);
 	}
 	
 	
 	
 	@Then("Click Month Radio button To Check HomePage")
-	public void Click_Month_Radio_button_To_Check_HomePage() {
+	public void Click_Month_Radio_button_To_Check_HomePage() throws InterruptedException {
 		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
 		wait.until(ExpectedConditions.elementToBeClickable(By.id("ContentPlaceHolder1_rblReportType_1")));
 		ele1 = driver.findElement(By.id("ContentPlaceHolder1_rblReportType_1"));
 		ele1.click();
+		Thread.sleep(10000);
 	}
 	
 	@And("Select Valid Month In The Caledar To Check HomePage")
 	public void Select_Valid_Month_In_The_Caledar_To_Check_HomePage() {
-		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
+		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(2));
 		wait.until(ExpectedConditions.elementToBeClickable(By.id("ContentPlaceHolder1_txtFromDate")));
 		ele = driver.findElement(By.id("ContentPlaceHolder1_txtFromDate"));
 		ele.click();
+		wait.until(ExpectedConditions.elementToBeClickable(By.id("calendar1_month_0_0")));
 		ele1 = driver.findElement(By.id("calendar1_month_0_0"));
 		ele1.click();
 	}
@@ -817,9 +820,12 @@ public class JE_OP_2_HomePage {
 			System.out.println("No Alert Message Is Displayed");
 		}
 		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
-		wait.until(ExpectedConditions.elementToBeClickable(By.id("ContentPlaceHolder1_repTest_rptInnerDates_16_lnkCHATOWN_0")));
-		ele = driver.findElement(By.id("ContentPlaceHolder1_repTest_rptInnerDates_16_lnkCHATOWN_0"));
+		wait.until(ExpectedConditions.elementToBeClickable(By.id("ContentPlaceHolder1_lblFirstMonth")));
+		ele= driver.findElement(By.id("ContentPlaceHolder1_imgPrev1"));
 		ele.click();
+		Thread.sleep(5000);
+		ele1= driver.findElement(By.id("ContentPlaceHolder1_repTest_rptInnerDates_2_lnkCHATOWN_0"));
+		ele1.click();
 	}
 	
 	@Then("Click Close button In Day Activity")
@@ -871,9 +877,12 @@ public class JE_OP_2_HomePage {
 			System.out.println("No Alert Message Is Displayed");
 		}
 		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
-		wait.until(ExpectedConditions.elementToBeClickable(By.id("ContentPlaceHolder1_repTest_rptInnerDates_16_lnkCHATOWN_1")));
-		ele = driver.findElement(By.id("ContentPlaceHolder1_repTest_rptInnerDates_16_lnkCHATOWN_1"));
+		wait.until(ExpectedConditions.elementToBeClickable(By.id("ContentPlaceHolder1_lblFirstMonth")));
+		ele= driver.findElement(By.id("ContentPlaceHolder1_imgPrev1"));
 		ele.click();
+		Thread.sleep(5000);
+		ele1= driver.findElement(By.id("ContentPlaceHolder1_repTest_rptInnerDates_6_lnkCHATOWN_1"));
+		ele1.click();
 	}
 	
 	@Then("Click Live Hours button In Homepage")
@@ -900,6 +909,33 @@ public class JE_OP_2_HomePage {
 		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
 		wait.until(ExpectedConditions.elementToBeClickable(By.id("ancTopLVHRS")));
 		ele = driver.findElement(By.id("ancTopLVHRS"));
+		ele.click();
+	}
+	
+	@Then("Click Add request button In Request Flight")
+	public void Click_Add_request_button_In_Request_Flight() throws InterruptedException {
+		try {
+			Alert alert = driver.switchTo().alert();
+			String text = alert.getText();
+			System.out.println("Alert Message Displayed Like : "+text);
+			alert.accept();
+		}
+		catch (NoAlertPresentException e) {
+			System.out.println("No Alert Message Is Displayed");
+		}
+		Thread.sleep(2000);
+		try {
+			Alert alert = driver.switchTo().alert();
+			String text = alert.getText();
+			System.out.println("Alert Message Displayed Like : "+text);
+			alert.accept();
+		}
+		catch (NoAlertPresentException e) {
+			System.out.println("No Alert Message Is Displayed");
+		}
+		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
+		wait.until(ExpectedConditions.elementToBeClickable(By.id("ContentPlaceHolder1_btnAddNewRequest")));
+		ele = driver.findElement(By.id("ContentPlaceHolder1_btnAddNewRequest"));
 		ele.click();
 	}
 	
@@ -1203,8 +1239,8 @@ public class JE_OP_2_HomePage {
 		}
 		Thread.sleep(2000);
 		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
-		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"liMainHome\"]/a/i[1]")));
-		ele = driver.findElement(By.xpath("//*[@id=\"liMainHome\"]/a/i[1]"));
+		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/form/div[4]/div/div[1]/div[2]/div/ul/li[1]/a/i[1]")));
+		ele = driver.findElement(By.xpath("/html/body/form/div[4]/div/div[1]/div[2]/div/ul/li[1]/a/i[1]"));
 		ele.click();
 	}
 	
@@ -1230,8 +1266,8 @@ public class JE_OP_2_HomePage {
 			System.out.println("No Alert Message Is Displayed");
 		}
 		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
-		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"ancREQFL\"]/span")));
-		ele = driver.findElement(By.xpath("//*[@id=\"ancREQFL\"]/span"));
+		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/form/div[4]/div/div[1]/div[2]/div/ul/li[1]/div/ul/li[5]/a/span")));
+		ele = driver.findElement(By.xpath("/html/body/form/div[4]/div/div[1]/div[2]/div/ul/li[1]/div/ul/li[5]/a/span"));
 		ele.click();
 	}
 	
@@ -1326,27 +1362,27 @@ public class JE_OP_2_HomePage {
 		//Enter PAX
 		ele = driver.findElement(By.id("ContentPlaceHolder1_txtPAX"));
 		ele.sendKeys("10");
-		Thread.sleep(2000);
+		wait.until(ExpectedConditions.elementToBeClickable(By.id("ContentPlaceHolder1_txtDate")));
 		//Select depature date
 		ele1 = driver.findElement(By.id("ContentPlaceHolder1_txtDate"));
 		ele1.click();
-		Thread.sleep(2000);
+		wait.until(ExpectedConditions.elementToBeClickable(By.id("ContentPlaceHolder1_CalendarExtender3_day_2_5")));
 		ele2 = driver.findElement(By.id("ContentPlaceHolder1_CalendarExtender3_day_2_5"));
 		ele2.click();
-		Thread.sleep(2000);
+		wait.until(ExpectedConditions.elementToBeClickable(By.id("ContentPlaceHolder1_ddlSTHours")));
 		//Select start time
 		ele3 = driver.findElement(By.id("ContentPlaceHolder1_ddlSTHours"));
 		Select sel=new Select(ele3);
 		sel.selectByIndex(3);
-		Thread.sleep(2000);
+		wait.until(ExpectedConditions.elementToBeClickable(By.id("ContentPlaceHolder1_ddlSTMinutes")));
 		ele4 = driver.findElement(By.id("ContentPlaceHolder1_ddlSTMinutes"));
 		Select sel1=new Select(ele4);
 		sel.selectByIndex(3);
-		Thread.sleep(2000);
+		wait.until(ExpectedConditions.elementToBeClickable(By.id("ContentPlaceHolder1_txtStartAirport")));
 		//Enter Departure airport
 		ele5 = driver.findElement(By.id("ContentPlaceHolder1_txtStartAirport"));
 		ele5.sendKeys("Test -  - TEST");
-		Thread.sleep(2000);
+		wait.until(ExpectedConditions.elementToBeClickable(By.id("ContentPlaceHolder1_txtEndAirport")));
 		//Enter Arrival Airport
 		ele6 = driver.findElement(By.id("ContentPlaceHolder1_txtEndAirport"));
 		ele6.sendKeys("Test -  - TEST");

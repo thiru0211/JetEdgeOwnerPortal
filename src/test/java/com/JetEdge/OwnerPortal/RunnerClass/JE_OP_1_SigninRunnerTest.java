@@ -8,6 +8,7 @@ import io.cucumber.junit.CucumberOptions;
 @RunWith(Cucumber.class)
 @CucumberOptions(features ="C:\\Users\\thirumaran\\eclipse-workspace\\JetEdgeOwnerPortal\\src\\test\\resources\\FeatureFiles\\JE_OP_1_SignIn.feature",
 glue = "com.JetEdge.OwnerPortal.StepDefinition",
+monochrome = true,
 //tags="@TC_01",
 plugin = {"pretty","html:Reports/TestReport.html",
 		"json:target/cucumber/cucumber.json",

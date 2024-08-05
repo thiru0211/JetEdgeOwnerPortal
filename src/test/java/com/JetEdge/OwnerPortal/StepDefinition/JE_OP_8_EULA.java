@@ -83,11 +83,12 @@ public class JE_OP_8_EULA {
 	}
 
 	@And("Click Continue button To Check EULA")
-	public void Click_Continue_button_To_Check_MGReport() {
+	public void Click_Continue_button_To_Check_MGReport() throws InterruptedException {
 		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
 		wait.until(ExpectedConditions.elementToBeClickable(By.id("btnContinueTail")));
 		ele1 = driver.findElement(By.id("btnContinueTail"));
 		ele1.click();
+		Thread.sleep(20000);
 	}
 
 	@Then("Click EULA button")
@@ -96,6 +97,7 @@ public class JE_OP_8_EULA {
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"ancEULA\"]/i")));
 		ele = driver.findElement(By.xpath("//*[@id=\"ancEULA\"]/i"));
 		ele.click();
+		
 	}
 	
 	@And("Select The Owner In Dropdown In EULA")

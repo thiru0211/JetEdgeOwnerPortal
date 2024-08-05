@@ -82,11 +82,12 @@ public class JE_OP_3_ManagementReport {
 	}
 	
 	@And("Click Continue button To Check MGReport")
-	public void Click_Continue_button_To_Check_MGReport() {
+	public void Click_Continue_button_To_Check_MGReport() throws InterruptedException {
 		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
 		wait.until(ExpectedConditions.elementToBeClickable(By.id("btnContinueTail")));
 		ele1 = driver.findElement(By.id("btnContinueTail"));
 		ele1.click();
+		Thread.sleep(25000);
 	}
 	
 	@Then("Click MSReport In To Check MGReport")
@@ -128,11 +129,12 @@ public class JE_OP_3_ManagementReport {
 	}
 	
 	@And("Click View button To Check MGReport")
-	public void Click_View_button_To_Check_MGReport() {
+	public void Click_View_button_To_Check_MGReport() throws InterruptedException {
 		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
 		wait.until(ExpectedConditions.elementToBeClickable(By.id("ContentPlaceHolder1_Button1")));
 		ele = driver.findElement(By.id("ContentPlaceHolder1_Button1"));
 		ele.click();
+		Thread.sleep(5000);
 	}
 	
 	@And("Click Excel button To Check MGReport")
@@ -172,7 +174,7 @@ public class JE_OP_3_ManagementReport {
 	
 	@Then("Click Monthly Expenses Tab To Check MGReport")
 	public void Click_Monthly_Expenses_Tab_To_Check_MGReport() throws InterruptedException {
-		Thread.sleep(90000);
+		Thread.sleep(10000);
 		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
 		wait.until(ExpectedConditions.presenceOfElementLocated(By.id("ContentPlaceHolder1_ancMonthlyExpenses")));
 		ele = driver.findElement(By.id("ContentPlaceHolder1_ancMonthlyExpenses"));
@@ -364,7 +366,8 @@ public class JE_OP_3_ManagementReport {
 	}
 	
 	@Then("Click Actual Flight Activity Tab To Check MGReport")
-	public void Click_Actual_Flight_Activity_Tab_To_Check_MGReport() {
+	public void Click_Actual_Flight_Activity_Tab_To_Check_MGReport() throws InterruptedException {
+		Thread.sleep(10000);
 		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
 		wait.until(ExpectedConditions.elementToBeClickable(By.id("ContentPlaceHolder1_ancFlightActivity")));
 		ele = driver.findElement(By.id("ContentPlaceHolder1_ancFlightActivity"));

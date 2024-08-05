@@ -2,7 +2,7 @@ Feature: HOMEPAGE
 
   @TC_01
   Scenario: Homepage:Snapshot
-    Given To Check HomePage User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/ownerV2/login.aspx"
+    Given To Check HomePage User is navigating to JetEdge URL is "http://192.168.1.33/OWNERV2/login.aspx"
     When To Check HomePage User Enter Valid username and Valid password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the login button To Check HomePage
     Then Check Tail button Is Displayed Or Not To Check HomePage
@@ -10,7 +10,7 @@ Feature: HOMEPAGE
 
   @TC_02
   Scenario: Homepage:Snapshot
-    Given To Check HomePage User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/ownerV2/login.aspx"
+    Given To Check HomePage User is navigating to JetEdge URL is "http://192.168.1.33/OWNERV2/login.aspx"
     When To Check HomePage User Enter Valid username and Valid password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the login button To Check HomePage
     Then Select Valid Tail To Check HomePage
@@ -20,7 +20,7 @@ Feature: HOMEPAGE
 
   @TC_03
   Scenario: Homepage:Snapshot
-    Given To Check HomePage User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/ownerV2/login.aspx"
+    Given To Check HomePage User is navigating to JetEdge URL is "http://192.168.1.33/OWNERV2/login.aspx"
     When To Check HomePage User Enter Valid username and Valid password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the login button To Check HomePage
     Then Select Valid Tail To Check HomePage
@@ -31,7 +31,7 @@ Feature: HOMEPAGE
 
   @TC_04
   Scenario: Homepage:Snapshot
-    Given To Check HomePage User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/ownerV2/login.aspx"
+    Given To Check HomePage User is navigating to JetEdge URL is "http://192.168.1.33/OWNERV2/login.aspx"
     When To Check HomePage User Enter Valid username and Valid password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the login button To Check HomePage
     Then Select Valid Tail To Check HomePage
@@ -42,7 +42,7 @@ Feature: HOMEPAGE
 
   @TC_05
   Scenario: Homepage:Snapshot
-    Given To Check HomePage User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/ownerV2/login.aspx"
+    Given To Check HomePage User is navigating to JetEdge URL is "http://192.168.1.33/OWNERV2/login.aspx"
     When To Check HomePage User Enter Valid username and Valid password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the login button To Check HomePage
     Then Select Valid Tail To Check HomePage
@@ -53,7 +53,7 @@ Feature: HOMEPAGE
 
   @TC_06
   Scenario: Homepage:Snapshot
-    Given To Check HomePage User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/ownerV2/login.aspx"
+    Given To Check HomePage User is navigating to JetEdge URL is "http://192.168.1.33/OWNERV2/login.aspx"
     When To Check HomePage User Enter Valid username and Valid password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the login button To Check HomePage
     Then Select Valid Tail To Check HomePage
@@ -67,7 +67,7 @@ Feature: HOMEPAGE
 
   @TC_07
   Scenario: Homepage:Snapshot
-    Given To Check HomePage User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/ownerV2/login.aspx"
+    Given To Check HomePage User is navigating to JetEdge URL is "http://192.168.1.33/OWNERV2/login.aspx"
     When To Check HomePage User Enter Valid username and Valid password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the login button To Check HomePage
     Then Select Valid Tail To Check HomePage
@@ -78,7 +78,7 @@ Feature: HOMEPAGE
 
   @TC_08
   Scenario: Homepage:Snapshot
-    Given To Check HomePage User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/ownerV2/login.aspx"
+    Given To Check HomePage User is navigating to JetEdge URL is "http://192.168.1.33/OWNERV2/login.aspx"
     When To Check HomePage User Enter Valid username and Valid password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the login button To Check HomePage
     Then Select Valid Tail To Check HomePage
@@ -89,7 +89,7 @@ Feature: HOMEPAGE
 
   @TC_09
   Scenario: Homepage:Snapshot
-    Given To Check HomePage User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/ownerV2/login.aspx"
+    Given To Check HomePage User is navigating to JetEdge URL is "http://192.168.1.33/OWNERV2/login.aspx"
     When To Check HomePage User Enter Valid username and Valid password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the login button To Check HomePage
     Then Select Valid Tail To Check HomePage
@@ -100,7 +100,7 @@ Feature: HOMEPAGE
 
   @TC_10
   Scenario: Homepage:Snapshot
-    Given To Check HomePage User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/ownerV2/login.aspx"
+    Given To Check HomePage User is navigating to JetEdge URL is "http://192.168.1.33/OWNERV2/login.aspx"
     When To Check HomePage User Enter Valid username and Valid password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the login button To Check HomePage
     Then Select Valid Tail To Check HomePage
@@ -111,7 +111,7 @@ Feature: HOMEPAGE
 
   @TC_11
   Scenario: Homepage:Snapshot
-    Given To Check HomePage User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/ownerV2/login.aspx"
+    Given To Check HomePage User is navigating to JetEdge URL is "http://192.168.1.33/OWNERV2/login.aspx"
     When To Check HomePage User Enter Valid username and Valid password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the login button To Check HomePage
     Then Select Valid Tail To Check HomePage
@@ -122,7 +122,7 @@ Feature: HOMEPAGE
 
   @TC_12
   Scenario: Homepage:Snapshot
-    Given To Check HomePage User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/ownerV2/login.aspx"
+    Given To Check HomePage User is navigating to JetEdge URL is "http://192.168.1.33/OWNERV2/login.aspx"
     When To Check HomePage User Enter Valid username and Valid password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the login button To Check HomePage
     Then Select Valid Tail To Check HomePage
@@ -133,7 +133,7 @@ Feature: HOMEPAGE
 
   @TC_13
   Scenario: Homepage:Snapshot
-    Given To Check HomePage User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/ownerV2/login.aspx"
+    Given To Check HomePage User is navigating to JetEdge URL is "http://192.168.1.33/OWNERV2/login.aspx"
     When To Check HomePage User Enter Valid username and Valid password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the login button To Check HomePage
     Then Select Valid Tail To Check HomePage
@@ -144,7 +144,7 @@ Feature: HOMEPAGE
 
   @TC_14
   Scenario: Homepage:Snapshot
-    Given To Check HomePage User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/ownerV2/login.aspx"
+    Given To Check HomePage User is navigating to JetEdge URL is "http://192.168.1.33/OWNERV2/login.aspx"
     When To Check HomePage User Enter Valid username and Valid password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the login button To Check HomePage
     Then Select Valid Tail To Check HomePage
@@ -155,7 +155,7 @@ Feature: HOMEPAGE
 
   @TC_15
   Scenario: Homepage:Snapshot
-    Given To Check HomePage User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/ownerV2/login.aspx"
+    Given To Check HomePage User is navigating to JetEdge URL is "http://192.168.1.33/OWNERV2/login.aspx"
     When To Check HomePage User Enter Valid username and Valid password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the login button To Check HomePage
     Then Select Valid Tail To Check HomePage
@@ -165,7 +165,7 @@ Feature: HOMEPAGE
 
   @TC_16
   Scenario: Homepage:Snapshot
-    Given To Check HomePage User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/ownerV2/login.aspx"
+    Given To Check HomePage User is navigating to JetEdge URL is "http://192.168.1.33/OWNERV2/login.aspx"
     When To Check HomePage User Enter Valid username and Valid password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the login button To Check HomePage
     Then Select Valid Tail To Check HomePage
@@ -175,7 +175,7 @@ Feature: HOMEPAGE
 
   @TC_17
   Scenario: Homepage:Snapshot
-    Given To Check HomePage User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/ownerV2/login.aspx"
+    Given To Check HomePage User is navigating to JetEdge URL is "http://192.168.1.33/OWNERV2/login.aspx"
     When To Check HomePage User Enter Valid username and Valid password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the login button To Check HomePage
     Then Select Valid Tail To Check HomePage
@@ -185,7 +185,7 @@ Feature: HOMEPAGE
 
   @TC_18
   Scenario: Homepage:Dashboard
-    Given To Check HomePage User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/ownerV2/login.aspx"
+    Given To Check HomePage User is navigating to JetEdge URL is "http://192.168.1.33/OWNERV2/login.aspx"
     When To Check HomePage User Enter Valid username and Valid password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the login button To Check HomePage
     Then Select Valid Tail To Check HomePage
@@ -197,7 +197,7 @@ Feature: HOMEPAGE
 
   @TC_19
   Scenario: Homepage:Dashboard
-    Given To Check HomePage User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/ownerV2/login.aspx"
+    Given To Check HomePage User is navigating to JetEdge URL is "http://192.168.1.33/OWNERV2/login.aspx"
     When To Check HomePage User Enter Valid username and Valid password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the login button To Check HomePage
     Then Select Valid Tail To Check HomePage
@@ -209,7 +209,7 @@ Feature: HOMEPAGE
 
   @TC_20
   Scenario: Homepage:Dashboard
-    Given To Check HomePage User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/ownerV2/login.aspx"
+    Given To Check HomePage User is navigating to JetEdge URL is "http://192.168.1.33/OWNERV2/login.aspx"
     When To Check HomePage User Enter Valid username and Valid password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the login button To Check HomePage
     Then Select Valid Tail To Check HomePage
@@ -221,7 +221,7 @@ Feature: HOMEPAGE
 
   @TC_21
   Scenario: Homepage:Dashboard
-    Given To Check HomePage User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/ownerV2/login.aspx"
+    Given To Check HomePage User is navigating to JetEdge URL is "http://192.168.1.33/OWNERV2/login.aspx"
     When To Check HomePage User Enter Valid username and Valid password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the login button To Check HomePage
     Then Select Valid Tail To Check HomePage
@@ -233,7 +233,7 @@ Feature: HOMEPAGE
 
   @TC_22
   Scenario: Homepage:Calendar
-    Given To Check HomePage User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/ownerV2/login.aspx"
+    Given To Check HomePage User is navigating to JetEdge URL is "http://192.168.1.33/OWNERV2/login.aspx"
     When To Check HomePage User Enter Valid username and Valid password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the login button To Check HomePage
     Then Select Valid Tail To Check HomePage
@@ -246,7 +246,7 @@ Feature: HOMEPAGE
 
   @TC_23
   Scenario: Homepage:Calendar
-    Given To Check HomePage User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/ownerV2/login.aspx"
+    Given To Check HomePage User is navigating to JetEdge URL is "http://192.168.1.33/OWNERV2/login.aspx"
     When To Check HomePage User Enter Valid username and Valid password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the login button To Check HomePage
     Then Select Valid Tail To Check HomePage
@@ -258,7 +258,7 @@ Feature: HOMEPAGE
 
   @TC_24
   Scenario: Homepage:Calendar
-    Given To Check HomePage User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/ownerV2/login.aspx"
+    Given To Check HomePage User is navigating to JetEdge URL is "http://192.168.1.33/OWNERV2/login.aspx"
     When To Check HomePage User Enter Valid username and Valid password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the login button To Check HomePage
     Then Select Valid Tail To Check HomePage
@@ -270,7 +270,7 @@ Feature: HOMEPAGE
 
   @TC_25
   Scenario: Homepage:Calendar
-    Given To Check HomePage User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/ownerV2/login.aspx"
+    Given To Check HomePage User is navigating to JetEdge URL is "http://192.168.1.33/OWNERV2/login.aspx"
     When To Check HomePage User Enter Valid username and Valid password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the login button To Check HomePage
     Then Select Valid Tail To Check HomePage
@@ -282,7 +282,7 @@ Feature: HOMEPAGE
 
   @TC_26
   Scenario: Homepage:Calendar
-    Given To Check HomePage User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/ownerV2/login.aspx"
+    Given To Check HomePage User is navigating to JetEdge URL is "http://192.168.1.33/OWNERV2/login.aspx"
     When To Check HomePage User Enter Valid username and Valid password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the login button To Check HomePage
     Then Select Valid Tail To Check HomePage
@@ -294,7 +294,7 @@ Feature: HOMEPAGE
 
   @TC_27
   Scenario: Homepage:Live Hours
-    Given To Check HomePage User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/ownerV2/login.aspx"
+    Given To Check HomePage User is navigating to JetEdge URL is "http://192.168.1.33/OWNERV2/login.aspx"
     When To Check HomePage User Enter Valid username and Valid password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the login button To Check HomePage
     Then Select Valid Tail To Check HomePage
@@ -305,7 +305,7 @@ Feature: HOMEPAGE
 
   @TC_28
   Scenario: Homepage:Live Hours
-    Given To Check HomePage User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/ownerV2/login.aspx"
+    Given To Check HomePage User is navigating to JetEdge URL is "http://192.168.1.33/OWNERV2/login.aspx"
     When To Check HomePage User Enter Valid username and Valid password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the login button To Check HomePage
     Then Select Valid Tail To Check HomePage
@@ -323,7 +323,7 @@ Feature: HOMEPAGE
 
   @TC_29
   Scenario: Homepage:Live Hours
-    Given To Check HomePage User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/ownerV2/login.aspx"
+    Given To Check HomePage User is navigating to JetEdge URL is "http://192.168.1.33/OWNERV2/login.aspx"
     When To Check HomePage User Enter Valid username and Valid password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the login button To Check HomePage
     Then Select Valid Tail To Check HomePage
@@ -341,58 +341,62 @@ Feature: HOMEPAGE
 
   @TC_30
   Scenario: Homepage:Live Hours
-    Given To Check HomePage User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/ownerV2/login.aspx"
+    Given To Check HomePage User is navigating to JetEdge URL is "http://192.168.1.33/OWNERV2/login.aspx"
     When To Check HomePage User Enter Valid username and Valid password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the login button To Check HomePage
     Then Select Valid Tail To Check HomePage
     And Click Continue button To Check HomePage
     Then Click Home button To Check HomePage
     And Click Request Flight button In Home button
+    Then Click Add request button In Request Flight
     Then Click Add Leg button In Request Flight
     And close the HomePage Page
 
   @TC_31
   Scenario: Homepage:Live Hours
-    Given To Check HomePage User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/ownerV2/login.aspx"
+    Given To Check HomePage User is navigating to JetEdge URL is "http://192.168.1.33/OWNERV2/login.aspx"
     When To Check HomePage User Enter Valid username and Valid password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the login button To Check HomePage
     Then Select Valid Tail To Check HomePage
     And Click Continue button To Check HomePage
     Then Click Home button To Check HomePage
     And Click Request Flight button In Home button
+    Then Click Add request button In Request Flight
     Then Click Back button In Request Flight
     And close the HomePage Page
 
   @TC_32
   Scenario: Homepage:Live Hours
-    Given To Check HomePage User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/ownerV2/login.aspx"
+    Given To Check HomePage User is navigating to JetEdge URL is "http://192.168.1.33/OWNERV2/login.aspx"
     When To Check HomePage User Enter Valid username and Valid password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the login button To Check HomePage
     Then Select Valid Tail To Check HomePage
     And Click Continue button To Check HomePage
     Then Click Home button To Check HomePage
     And Click Request Flight button In Home button
+    Then Click Add request button In Request Flight
     Then Enter Valid Details In Add Leg Tab
     And Enter Valid Details In Notes
     Then Click Clear button In Add Leg Tab
     And close the HomePage Page
-    
+
     @TC_33
   Scenario: Homepage:Live Hours
-    Given To Check HomePage User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/ownerV2/login.aspx"
+    Given To Check HomePage User is navigating to JetEdge URL is "http://192.168.1.33/OWNERV2/login.aspx"
     When To Check HomePage User Enter Valid username and Valid password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the login button To Check HomePage
     Then Select Valid Tail To Check HomePage
     And Click Continue button To Check HomePage
     Then Click Home button To Check HomePage
     And Click Request Flight button In Home button
+    Then Click Add request button In Request Flight
     Then Enter Valid Details In Add Leg Tab
     Then Click Add Leg button In Request Flight
     And close the HomePage Page
     
     @TC_34
   Scenario: Homepage:Live Hours
-    Given To Check HomePage User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/ownerV2/login.aspx"
+    Given To Check HomePage User is navigating to JetEdge URL is "http://192.168.1.33/OWNERV2/login.aspx"
     When To Check HomePage User Enter Valid username and Valid password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the login button To Check HomePage
     Then Select Valid Tail To Check HomePage
@@ -405,7 +409,7 @@ Feature: HOMEPAGE
     
   @TC_35
   Scenario: Homepage:Live Hours
-    Given To Check HomePage User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/ownerV2/login.aspx"
+    Given To Check HomePage User is navigating to JetEdge URL is "http://192.168.1.33/OWNERV2/login.aspx"
     When To Check HomePage User Enter Valid username and Valid password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the login button To Check HomePage
     Then Select Valid Tail To Check HomePage

@@ -83,11 +83,12 @@ public class JE_OP_6_FeedbackSurvey {
 	}
 
 	@And("Click Continue button To Check Feedback Survey")
-	public void Click_Continue_button_To_Check_MGReport() {
+	public void Click_Continue_button_To_Check_MGReport() throws InterruptedException {
 		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
 		wait.until(ExpectedConditions.elementToBeClickable(By.id("btnContinueTail")));
 		ele1 = driver.findElement(By.id("btnContinueTail"));
 		ele1.click();
+		Thread.sleep(20000);
 	}
 
 	@Then("Click Feedback Survey button")

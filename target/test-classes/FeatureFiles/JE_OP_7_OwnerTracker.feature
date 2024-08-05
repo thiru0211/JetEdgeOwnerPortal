@@ -2,16 +2,16 @@ Feature: OWNER TRACKER
 
   @TC_01
   Scenario: Owner Tracker Check
-    Given To Check Owner Tracker User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/ownerV2/login.aspx"
-    When To Check Owner Tracker User Enter Valid username and Valid password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+    Given To Check Owner Tracker User is navigating to JetEdge URL is "http://192.168.1.33/OWNERV2/login.aspx"
+    When To Check Owner Tracker User Enter Valid username and Valid password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the login button To Check Owner Tracker
     Then Check Tail button Is Displayed Or Not To Check Owner Tracker
     And close the Owner Tracker Page
 
   @TC_02
   Scenario: Owner Tracker:OwnerTracker 1.0
-    Given To Check Owner Tracker User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/ownerV2/login.aspx"
-    When To Check Owner Tracker User Enter Valid username and Valid password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+    Given To Check Owner Tracker User is navigating to JetEdge URL is "http://192.168.1.33/OWNERV2/login.aspx"
+    When To Check Owner Tracker User Enter Valid username and Valid password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the login button To Check Owner Tracker
     Then Select Valid Tail To Check Owner Tracker
     And Click Continue button To Check Owner Tracker
@@ -20,8 +20,8 @@ Feature: OWNER TRACKER
     
     @TC_03
   Scenario: Owner Tracker:OwnerTracker 1.0
-    Given To Check Owner Tracker User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/ownerV2/login.aspx"
-    When To Check Owner Tracker User Enter Valid username and Valid password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+    Given To Check Owner Tracker User is navigating to JetEdge URL is "http://192.168.1.33/OWNERV2/login.aspx"
+    When To Check Owner Tracker User Enter Valid username and Valid password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the login button To Check Owner Tracker
     Then Select Valid Tail To Check Owner Tracker
     And Click Continue button To Check Owner Tracker
@@ -32,8 +32,8 @@ Feature: OWNER TRACKER
     
     @TC_04
   Scenario: Owner Tracker:OwnerTracker 2.0
-    Given To Check Owner Tracker User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/ownerV2/login.aspx"
-    When To Check Owner Tracker User Enter Valid username and Valid password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+    Given To Check Owner Tracker User is navigating to JetEdge URL is "http://192.168.1.33/OWNERV2/login.aspx"
+    When To Check Owner Tracker User Enter Valid username and Valid password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the login button To Check Owner Tracker
     Then Select Valid Tail To Check Owner Tracker
     And Click Continue button To Check Owner Tracker

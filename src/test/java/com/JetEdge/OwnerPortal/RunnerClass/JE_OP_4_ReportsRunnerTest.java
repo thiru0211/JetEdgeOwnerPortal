@@ -8,7 +8,8 @@ import io.cucumber.junit.CucumberOptions;
 @RunWith(Cucumber.class)
 @CucumberOptions(features ="C:\\Users\\thirumaran\\eclipse-workspace\\JetEdgeOwnerPortal\\src\\test\\resources\\FeatureFiles\\JE_OP_4_Reports.feature",
 glue = "com.JetEdge.OwnerPortal.StepDefinition",
-//tags="@TC_21",
+monochrome = true,
+//tags="@TC_14",
 plugin = {"pretty","html:Reports/TestReport.html",
 		"json:target/cucumber/cucumber.json",
 		"html:Reports/cucumber-reports.html",

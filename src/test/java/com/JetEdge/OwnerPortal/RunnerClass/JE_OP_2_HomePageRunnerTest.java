@@ -8,12 +8,13 @@ import io.cucumber.junit.CucumberOptions;
 @RunWith(Cucumber.class)
 @CucumberOptions(features ="C:\\Users\\thirumaran\\eclipse-workspace\\JetEdgeOwnerPortal\\src\\test\\resources\\FeatureFiles\\JE_OP_2_HomePage.feature",
 glue = "com.JetEdge.OwnerPortal.StepDefinition",
-//tags="@TC_34",
+monochrome = true,
+//tags="@TEst",
 plugin = {"pretty","html:Reports/TestReport.html",
 		"json:target/cucumber/cucumber.json",
 		"html:Reports/cucumber-reports.html",
 		"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"})
 public class JE_OP_2_HomePageRunnerTest {
-
+	
 	
 }

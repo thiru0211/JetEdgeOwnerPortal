@@ -2,16 +2,16 @@ Feature: REPORTS
 
   @TC_01
   Scenario: Reports Check
-    Given To Check Reports User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/ownerV2/login.aspx"
-    When To Check Reports User Enter Valid username and Valid password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+    Given To Check Reports User is navigating to JetEdge URL is "http://192.168.1.33/OWNERV2/login.aspx"
+    When To Check Reports User Enter Valid username and Valid password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the login button To Check Reports
     Then Check Tail button Is Displayed Or Not To Check Reports
     And close the Reports Page
 
   @TC_02
   Scenario: Reports:Piolt Roster
-    Given To Check Reports User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/ownerV2/login.aspx"
-    When To Check Reports User Enter Valid username and Valid password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+    Given To Check Reports User is navigating to JetEdge URL is "http://192.168.1.33/OWNERV2/login.aspx"
+    When To Check Reports User Enter Valid username and Valid password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the login button To Check Reports
     Then Select Valid Tail To Check Reports
     And Click Continue button To Check Reports
@@ -22,8 +22,8 @@ Feature: REPORTS
 
   @TC_03
   Scenario: Reports:Piolt Roster
-    Given To Check Reports User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/ownerV2/login.aspx"
-    When To Check Reports User Enter Valid username and Valid password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+    Given To Check Reports User is navigating to JetEdge URL is "http://192.168.1.33/OWNERV2/login.aspx"
+    When To Check Reports User Enter Valid username and Valid password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the login button To Check Reports
     Then Select Valid Tail To Check Reports
     And Click Continue button To Check Reports
@@ -33,8 +33,8 @@ Feature: REPORTS
 
   @TC_04
   Scenario: Reports:Flight Activity
-    Given To Check Reports User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/ownerV2/login.aspx"
-    When To Check Reports User Enter Valid username and Valid password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+    Given To Check Reports User is navigating to JetEdge URL is "http://192.168.1.33/OWNERV2/login.aspx"
+    When To Check Reports User Enter Valid username and Valid password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the login button To Check Reports
     Then Select Valid Tail To Check Reports
     And Click Continue button To Check Reports
@@ -44,8 +44,8 @@ Feature: REPORTS
 
   @TC_05
   Scenario: Reports:Flight Activity
-    Given To Check Reports User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/ownerV2/login.aspx"
-    When To Check Reports User Enter Valid username and Valid password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+    Given To Check Reports User is navigating to JetEdge URL is "http://192.168.1.33/OWNERV2/login.aspx"
+    When To Check Reports User Enter Valid username and Valid password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the login button To Check Reports
     Then Select Valid Tail To Check Reports
     And Click Continue button To Check Reports
@@ -56,8 +56,8 @@ Feature: REPORTS
 
   @TC_06
   Scenario: Reports:Flight Activity
-    Given To Check Reports User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/ownerV2/login.aspx"
-    When To Check Reports User Enter Valid username and Valid password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+    Given To Check Reports User is navigating to JetEdge URL is "http://192.168.1.33/OWNERV2/login.aspx"
+    When To Check Reports User Enter Valid username and Valid password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the login button To Check Reports
     Then Select Valid Tail To Check Reports
     And Click Continue button To Check Reports
@@ -69,8 +69,8 @@ Feature: REPORTS
 
   @TC_07
   Scenario: Reports:Flight Activity1.0
-    Given To Check Reports User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/ownerV2/login.aspx"
-    When To Check Reports User Enter Valid username and Valid password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+    Given To Check Reports User is navigating to JetEdge URL is "http://192.168.1.33/OWNERV2/login.aspx"
+    When To Check Reports User Enter Valid username and Valid password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the login button To Check Reports
     Then Select Valid Tail To Check Reports
     And Click Continue button To Check Reports
@@ -80,8 +80,8 @@ Feature: REPORTS
 
   @TC_08
   Scenario: Reports:Flight Activity1.0
-    Given To Check Reports User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/ownerV2/login.aspx"
-    When To Check Reports User Enter Valid username and Valid password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+    Given To Check Reports User is navigating to JetEdge URL is "http://192.168.1.33/OWNERV2/login.aspx"
+    When To Check Reports User Enter Valid username and Valid password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the login button To Check Reports
     Then Select Valid Tail To Check Reports
     And Click Continue button To Check Reports
@@ -92,8 +92,8 @@ Feature: REPORTS
 
   @TC_09
   Scenario: Reports:Flight Activity1.0
-    Given To Check Reports User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/ownerV2/login.aspx"
-    When To Check Reports User Enter Valid username and Valid password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+    Given To Check Reports User is navigating to JetEdge URL is "http://192.168.1.33/OWNERV2/login.aspx"
+    When To Check Reports User Enter Valid username and Valid password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the login button To Check Reports
     Then Select Valid Tail To Check Reports
     And Click Continue button To Check Reports
@@ -105,8 +105,8 @@ Feature: REPORTS
 
   @TC_10
   Scenario: Reports:Owner Trip Expense
-    Given To Check Reports User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/ownerV2/login.aspx"
-    When To Check Reports User Enter Valid username and Valid password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+    Given To Check Reports User is navigating to JetEdge URL is "http://192.168.1.33/OWNERV2/login.aspx"
+    When To Check Reports User Enter Valid username and Valid password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the login button To Check Reports
     Then Select Valid Tail To Check Reports
     And Click Continue button To Check Reports
@@ -118,8 +118,8 @@ Feature: REPORTS
     
     @TC_11
   Scenario: Reports:Owner Trip Expense
-    Given To Check Reports User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/ownerV2/login.aspx"
-    When To Check Reports User Enter Valid username and Valid password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+    Given To Check Reports User is navigating to JetEdge URL is "http://192.168.1.33/OWNERV2/login.aspx"
+    When To Check Reports User Enter Valid username and Valid password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the login button To Check Reports
     Then Select Valid Tail To Check Reports
     And Click Continue button To Check Reports
@@ -132,8 +132,8 @@ Feature: REPORTS
     
     @TC_12
   Scenario: Reports:Owner Trip Expense
-    Given To Check Reports User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/ownerV2/login.aspx"
-    When To Check Reports User Enter Valid username and Valid password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+    Given To Check Reports User is navigating to JetEdge URL is "http://192.168.1.33/OWNERV2/login.aspx"
+    When To Check Reports User Enter Valid username and Valid password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the login button To Check Reports
     Then Select Valid Tail To Check Reports
     And Click Continue button To Check Reports
@@ -146,8 +146,8 @@ Feature: REPORTS
     
     @TC_13
   Scenario: Reports:380 Trip Expense
-    Given To Check Reports User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/ownerV2/login.aspx"
-    When To Check Reports User Enter Valid username and Valid password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+    Given To Check Reports User is navigating to JetEdge URL is "http://192.168.1.33/OWNERV2/login.aspx"
+    When To Check Reports User Enter Valid username and Valid password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the login button To Check Reports
     Then Select Valid Tail To Check Reports
     And Click Continue button To Check Reports
@@ -158,8 +158,8 @@ Feature: REPORTS
     
     @TC_14
   Scenario: Reports:Charter Trip Expense
-    Given To Check Reports User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/ownerV2/login.aspx"
-    When To Check Reports User Enter Valid username and Valid password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+    Given To Check Reports User is navigating to JetEdge URL is "http://192.168.1.33/OWNERV2/login.aspx"
+    When To Check Reports User Enter Valid username and Valid password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the login button To Check Reports
     Then Select Valid Tail To Check Reports
     And Click Continue button To Check Reports
@@ -170,8 +170,8 @@ Feature: REPORTS
 
     @TC_15
   Scenario: Reports:GL Wise Expense
-    Given To Check Reports User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/ownerV2/login.aspx"
-    When To Check Reports User Enter Valid username and Valid password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+    Given To Check Reports User is navigating to JetEdge URL is "http://192.168.1.33/OWNERV2/login.aspx"
+    When To Check Reports User Enter Valid username and Valid password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the login button To Check Reports
     Then Select Valid Tail To Check Reports
     And Click Continue button To Check Reports
@@ -183,8 +183,8 @@ Feature: REPORTS
     
     @TC_16
   Scenario: Reports:GL Wise Expense
-    Given To Check Reports User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/ownerV2/login.aspx"
-    When To Check Reports User Enter Valid username and Valid password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+    Given To Check Reports User is navigating to JetEdge URL is "http://192.168.1.33/OWNERV2/login.aspx"
+    When To Check Reports User Enter Valid username and Valid password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the login button To Check Reports
     Then Select Valid Tail To Check Reports
     And Click Continue button To Check Reports
@@ -196,8 +196,8 @@ Feature: REPORTS
     
     @TC_17
   Scenario: Reports:GL Wise Expense
-    Given To Check Reports User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/ownerV2/login.aspx"
-    When To Check Reports User Enter Valid username and Valid password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+    Given To Check Reports User is navigating to JetEdge URL is "http://192.168.1.33/OWNERV2/login.aspx"
+    When To Check Reports User Enter Valid username and Valid password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the login button To Check Reports
     Then Select Valid Tail To Check Reports
     And Click Continue button To Check Reports
@@ -210,8 +210,8 @@ Feature: REPORTS
    
     @TC_18
   Scenario: Reports:Owner Revenue Payable
-    Given To Check Reports User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/ownerV2/login.aspx"
-    When To Check Reports User Enter Valid username and Valid password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+    Given To Check Reports User is navigating to JetEdge URL is "http://192.168.1.33/OWNERV2/login.aspx"
+    When To Check Reports User Enter Valid username and Valid password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the login button To Check Reports
     Then Select Valid Tail To Check Reports
     And Click Continue button To Check Reports
@@ -221,8 +221,8 @@ Feature: REPORTS
     
      @TC_19
   Scenario: Reports:Payment History
-    Given To Check Reports User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/ownerV2/login.aspx"
-    When To Check Reports User Enter Valid username and Valid password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+    Given To Check Reports User is navigating to JetEdge URL is "http://192.168.1.33/OWNERV2/login.aspx"
+    When To Check Reports User Enter Valid username and Valid password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the login button To Check Reports
     Then Select Valid Tail To Check Reports
     And Click Continue button To Check Reports
@@ -234,8 +234,8 @@ Feature: REPORTS
     
     @TC_20
   Scenario: Reports:Fuel Uplift
-    Given To Check Reports User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/ownerV2/login.aspx"
-    When To Check Reports User Enter Valid username and Valid password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+    Given To Check Reports User is navigating to JetEdge URL is "http://192.168.1.33/OWNERV2/login.aspx"
+    When To Check Reports User Enter Valid username and Valid password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the login button To Check Reports
     Then Select Valid Tail To Check Reports
     And Click Continue button To Check Reports
@@ -248,8 +248,8 @@ Feature: REPORTS
     
     @TC_21
   Scenario: Reports:Pilot Salary
-    Given To Check Reports User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/ownerV2/login.aspx"
-    When To Check Reports User Enter Valid username and Valid password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+    Given To Check Reports User is navigating to JetEdge URL is "http://192.168.1.33/OWNERV2/login.aspx"
+    When To Check Reports User Enter Valid username and Valid password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the login button To Check Reports
     Then Select Valid Tail To Check Reports
     And Click Continue button To Check Reports
@@ -262,8 +262,8 @@ Feature: REPORTS
     
     @TC_22
   Scenario: Reports:Major Events
-    Given To Check Reports User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/ownerV2/login.aspx"
-    When To Check Reports User Enter Valid username and Valid password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+    Given To Check Reports User is navigating to JetEdge URL is "http://192.168.1.33/OWNERV2/login.aspx"
+    When To Check Reports User Enter Valid username and Valid password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the login button To Check Reports
     Then Select Valid Tail To Check Reports
     And Click Continue button To Check Reports
@@ -274,8 +274,8 @@ Feature: REPORTS
     
     @TC_23
   Scenario: Reports:Lost Revenue
-    Given To Check Reports User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/ownerV2/login.aspx"
-    When To Check Reports User Enter Valid username and Valid password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+    Given To Check Reports User is navigating to JetEdge URL is "http://192.168.1.33/OWNERV2/login.aspx"
+    When To Check Reports User Enter Valid username and Valid password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the login button To Check Reports
     Then Select Valid Tail To Check Reports
     And Click Continue button To Check Reports

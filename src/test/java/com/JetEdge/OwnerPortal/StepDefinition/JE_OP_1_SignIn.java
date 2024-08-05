@@ -72,7 +72,7 @@ public class JE_OP_1_SignIn {
 	}
 	
 	@Then("Select Valid Tail To Check Signin")
-	public void Select_Valid_Tail_To_Check_Signin() {
+	public void Select_Valid_Tail_To_Check_Signin() throws InterruptedException {
 		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
 		wait.until(ExpectedConditions.elementToBeClickable(By.id("ddlTail")));
 		ele = driver.findElement(By.id("ddlTail"));
@@ -82,6 +82,7 @@ public class JE_OP_1_SignIn {
 		//Click Continue button
 		ele1 = driver.findElement(By.id("btnContinueTail"));
 		ele1.click();
+		Thread.sleep(20000);
 	}
 	
 	@And("Check home page is displayed To Check Signin")
